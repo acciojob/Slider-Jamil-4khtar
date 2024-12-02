@@ -1,2 +1,13 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from 'react'
+import "../styles/App.css"
+import Slider from './Slider'
 
+function App() {
+    return (
+        <div id='app'>
+            <Slider/>
+        </div>
+    )
+}
+
+export default App
